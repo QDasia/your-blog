@@ -2,33 +2,12 @@
 
 我的个人博客项目，使用[hexo](https://github.com/hexojs/hexo)构建。
 
-*最近发现有些人会喜欢fork这个项目，个人建议最好别fork吧？如果真的想做参考，你clone下来，改就好了？不过最好的方法，还是去看hexo的官方文档，很清晰，没骗你。*
-
 [点击访问](http://classlfz.github.io)
 
-```sh
-# 安装全局依赖
+*最近发现有些人会喜欢fork这个项目，个人建议最好别fork吧？如果真的想做参考，你clone下来，改就好了？不过最好的方法，还是去看hexo的官方文档，很清晰，没骗你。*
 
-$ npm install -g hexo-cli
+## 关于 `fork`
 
-# 安装本地依赖
+我不知道你们的培训班的老师有没有给你们讲一下 `fork` 的作用，我这里就简单的说一下吧，其实也就是相当于你在原项目的主分支上又建立了一个分支，你可以在该分支上任意修改，如果想将你的修改合并到原项目中时，可以pull request，这样原项目的作者就可以将你修改的东西合并到原项目的主分支上去，这样你就为开源项目贡献了代码。
 
-$ npm install
-
-# 安装主题
-
-$ mkdir themes && cd themes
-
-# 使用hexo-theme-next主题
-$ git clone https://github.com/iissnan/hexo-theme-next.git
-
-# 开启服务
-
-$ cd ..
-
-$ hexo serve
-
-# 生成文件
-
-$ hexo generate
-```
+一般来说，你的账号里边 `fork` 了我的项目的话，是会在上边有显示的！有显示的！面试官除非也是个傻子，不然他/她是不可能看不出来的！
